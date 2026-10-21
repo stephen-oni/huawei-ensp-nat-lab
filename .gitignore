@@ -1,0 +1,22 @@
+# eNSP Temporary Files & Device Logs or something like junks
+*.tmp
+*.log
+*.bak
+*.sav
+*.cfg
+*.zip
+*.rar
+*_proj/
+*_device/
+.ensp/
+
+# Wireshark Temporary Captures not incuded in the project
+*.pcapng.tmp
+*.pcap.tmp
+
+# OS & Editor Junk called the standard
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
