@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="1FBF2D4E-A4C3-472a-8FFC-F03C57A9E93B" name="SW3" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-CE-25-BC" com_port="2003" bootmode="0" cx="96.000000" cy="668.000000" edit_left="71" edit_top="679">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="985AF822-8EC5-4856-A895-B883E13B0112" name="R2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-D5-6A-6F" com_port="2005" bootmode="0" cx="380.000000" cy="667.000000" edit_left="407" edit_top="721">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="0C1BE395-FAAF-4d32-9AF5-5FC5EC6A0009" name="SW4" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-47-40-41" com_port="2004" bootmode="0" cx="741.000000" cy="662.000000" edit_left="768" edit_top="716">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="B470BC6C-C23C-4dee-AD55-B43A0E6BC60D" name="SW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-67-3C-B8" com_port="2000" bootmode="0" cx="92.727272" cy="330.909088" edit_left="119" edit_top="384">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="825AE86E-90B7-44b4-97F2-D044CB0720E5" name="R1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-50-5C-54" com_port="2002" bootmode="0" cx="330.909088" cy="310.000000" edit_left="343" edit_top="298">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="B7F5E118-9B41-4980-B2A3-99021821DC96" name="SW2" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-E1-16-00" com_port="2001" bootmode="0" cx="593.636353" cy="294.545441" edit_left="621" edit_top="283">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="B470BC6C-C23C-4dee-AD55-B43A0E6BC60D" destDeviceID="825AE86E-90B7-44b4-97F2-D044CB0720E5">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="162.032089" srcBoundRect_Y="353.383850" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="313.967896" tarBoundRect_Y="340.616150" tarOffset_X="-26.000000" tarOffset_Y="9.000000" />
+        </line>
+        <line srcDeviceID="825AE86E-90B7-44b4-97F2-D044CB0720E5" destDeviceID="B7F5E118-9B41-4980-B2A3-99021821DC96">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="400.104065" srcBoundRect_Y="334.377686" srcOffset_X="-12.000000" srcOffset_Y="-19.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="576.895935" tarBoundRect_Y="323.622314" tarOffset_X="-40.000000" tarOffset_Y="-21.000000" />
+        </line>
+        <line srcDeviceID="1FBF2D4E-A4C3-472a-8FFC-F03C57A9E93B" destDeviceID="985AF822-8EC5-4856-A895-B883E13B0112">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="166.183502" srcBoundRect_Y="694.847961" srcOffset_X="-13.000000" srcOffset_Y="-18.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="363.816498" tarBoundRect_Y="694.152039" tarOffset_X="-38.000000" tarOffset_Y="-21.000000" />
+        </line>
+        <line srcDeviceID="985AF822-8EC5-4856-A895-B883E13B0112" destDeviceID="0C1BE395-FAAF-4d32-9AF5-5FC5EC6A0009">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="450.179626" srcBoundRect_Y="693.401917" srcOffset_X="-7.000000" srcOffset_Y="-19.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="724.820374" tarBoundRect_Y="689.598083" tarOffset_X="-28.000000" tarOffset_Y="-18.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="1" filloption="1" color="16744448" upleftcorner="135,182" width="0" height="0" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="13158600" upleftcorner="6,610" width="402" height="186" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="16744448" upleftcorner="452,784" width="0" height="0" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="13158600" upleftcorner="7,250" width="354" height="201" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="23" top="376" right="80" bottom="393" content="VLAN 10" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="653" top="325" right="710" bottom="342" content="VLAN 20" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="64" top="403" right="152" bottom="416" content="192.168.1.1/24" fontname="Consolas" fontstyle="0" editsize="80" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="213" top="366" right="313" bottom="379" content="192.168.1.254/24" fontname="Consolas" fontstyle="0" editsize="80" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="386" top="348" right="480" bottom="374" content="100.0.23.0/24-&#x0D;&#x0A;100.0.23.254/24" fontname="Consolas" fontstyle="0" editsize="80" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="555" top="350" right="637" bottom="363" content="100.0.23.3/24" fontname="Consolas" fontstyle="0" editsize="80" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="231" top="466" right="545" bottom="483" content="NAPT: POOL OF IP&apos;S WITH DIFFERNET PORT NO" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="267" top="235" right="355" bottom="248" content="192.168.1.0/24" fontname="Consolas" fontstyle="0" editsize="80" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="271" top="807" right="539" bottom="824" content="EASY: ONE IP WITH DIFFERENT PORT NO" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-16711872" charset="1" />
+        <txttip left="58" top="724" right="168" bottom="741" content="192.168.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="248" top="707" right="373" bottom="724" content="192.168.1.254/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="632" top="698" right="734" bottom="715" content="100.0.23.3/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="446" top="702" right="548" bottom="719" content="100.0.23.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="402" top="525" right="439" bottom="557" content="OR" fontname="Consolas" fontstyle="0" editsize="190" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="44" top="654" right="101" bottom="671" content="VLAN 10" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="305" top="594" right="404" bottom="609" content="192.168.1.0/24" fontname="Consolas" fontstyle="0" editsize="90" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
