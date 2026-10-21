@@ -5,9 +5,7 @@ This repository contains a hands-on network engineering lab built using **Huawei
 
 The lab includes live ICMP packet captures via **Wireshark** to analyze how Layer 4 port multiplexing operates under both NAT modes.
 
-<video src="assets/nat_lab_demo.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag, check assests/nat_lab_demo.mp4.
-</video>
+![eNSP Lab Topology](./assets/ensp_topology.png)
 
 ---
 
